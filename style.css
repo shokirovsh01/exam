@@ -69,8 +69,7 @@ margin: auto;
     margin-top: 50px;
 }
 .imm2{
-    display: flex;
-    justify-content: center;
+text-align: center;
     margin-top: 50px;   
 }
 .red{
@@ -109,6 +108,27 @@ margin-top: 50px;
     height: 120px;
     align-items: center;
 }
+.section4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+}
+.minisect4{
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+.podsection4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.imm4{
+    text-align: center;
+}
 
 
 
@@ -144,6 +164,19 @@ height: 363;
 .s3df{
     justify-content: start;
 }
+.section4{
+        flex-wrap: wrap-reverse;
+    }
+    .imm3{
+        width: 80%;
+        margin-top: 40px;
+    }
+    .imm44{
+        display: none;
+    }
+    .imm2{
+        display: none;
+    }
 }
 
 
@@ -191,5 +224,18 @@ height: 363;
         flex-wrap: wrap;
         height: auto;
         margin-top: 30px;
+    }
+    .section4{
+        flex-wrap: wrap-reverse;
+    }
+    .imm3{
+        width: 80%;
+        margin-top: 40px;
+    }
+    .podsection4{
+        flex-wrap: wrap-reverse;
+    }
+    .imm4{
+        display:none;
     }
 }
