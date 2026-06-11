@@ -2,3 +2,84 @@
     margin: 0;
     font-family: sans-serif;
 }
+.section1{
+    background: #673A44;
+color:white;
+padding: 20px;
+
+display: flex;
+justify-content: space-between;
+
+}
+.s1dftx{
+    display: flex;
+    gap: 30px;
+}
+.podsection1{
+    padding:15px;
+    background: #F2F2F2;
+}
+.s1df{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.but1{
+    background-color: #673A44;
+    color:white;
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    border:none;
+}
+.gr{
+    color:gray;
+}
+.s1tx{
+    font-size: 20px;
+}
+.mv{
+    max-width: 1200px;
+margin: auto;
+}
+.s1db{
+    padding: 15px;
+    width: 40%;
+    background: whitesmoke;
+    border-radius: 30px;
+}
+.section1dop{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 50px;
+}
+@media (max-width:768px){
+.imm{
+    width: 382.8116149902344;
+height: 363;
+
+}
+.s1df{
+    margin-top: 50px;
+}
+
+
+}
+@media(max-width:510px){
+    .s1df{
+        flex-wrap: wrap-reverse;
+    }
+    .imm{
+        width: 90%;
+    }
+    .s1tx{
+        text-align: center;
+    }
+    .section1dop{
+        flex-wrap: wrap;
+    }
+    .s1db{
+        width: 70%;
+    }
+}
