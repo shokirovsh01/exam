@@ -161,7 +161,30 @@ align-items: center;
     border-radius: 30px;
     align-items: center;
 }
-
+.section6{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: whitesmoke;
+    align-items: center;
+flex-wrap: wrap;
+}
+.imm6{
+    width: 40%;
+}
+.podsection6{
+    display: flex;
+    justify-content: space-evenly;
+padding: 50px;
+align-items: center;
+flex-wrap: wrap-reverse;
+}
+.footer{
+    margin-top: 50px;
+}
+.imm7{
+    width: 100%;
+}
 
 
 
@@ -228,6 +251,13 @@ height: 363;
         margin-top: 30px;
         width: 80%;
         
+    }
+    .imm6{
+        width:80%;
+        margin-top:30px;
+    }
+    .imm7{
+        display: none;
     }
 }
 
@@ -313,5 +343,12 @@ height: 363;
     .mmini{
         margin-top: 30px;
         
+    }
+    .imm6{
+        width:80%;
+        margin-top:30px;
+    }
+.imm7{
+        display: none;
     }
 }
